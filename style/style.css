@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+}
+.body_data{
+    position: relative;
+    left: 30%;
+    width: 35vw;
+    height: fit-content;
+    padding: 25px 30px 25px 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    padding-left: 20px;
+}
+input[type=text]{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 30vw;
+    height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 5px 10px;
+}
+#save{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 16px;
+    font-weight: bold;
+}
+#save:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(15, 124, 15);
+    font-weight: bold;
+}
+#clear{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(247, 67, 12);
+    color: black;
+    padding: 10px 16px;
+    font-weight: bold;
+}
+#clear:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(253, 2, 2);
+    font-weight: bold;
+}
+#del{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(247, 67, 12);
+    color: black;
+    padding: 10px 16px;
+    font-weight: bold;
+}
+#del:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(253, 2, 2);
+    font-weight: bold;
+}
+.data_table{
+    position: relative;
+    border: 3px solid black;
+    width: 28.7vw;
+    height: fit-content;
+    left: 4%;
+    padding: 16px 20px;
+    border-radius: 5px;
+}
+#st{
+    padding-left: 9px;
+}
+.table{
+    position: relative;
+    padding-left: 10px;
+    width: 28vw;
+}
+tr,td{
+    padding: 5px 10px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+}
